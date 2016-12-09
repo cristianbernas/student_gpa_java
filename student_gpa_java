@@ -1,0 +1,58 @@
+import java.util.List;
+
+class student_gpa{
+	public static void main(String[] args){
+		/*
+		student bernas= new student();
+		bernas.setName("Bernas Cristian");
+		bernas.setDept("CEA");
+		subject oop_class = new subject();
+		oop_class.setSubjectName("Object Oriented Programming");
+		oop_class.setGrade(75.00f);
+		bernas.addSubject(oop_class);
+		subject intgc_class = new subject();
+		intgc_class.setSubjectName("intgconometry");
+		intgc_class.setGrade(61.17f);
+		bernas.addSubject(intgc_class);
+		System.out.println("Student is " + bernas.getName());
+		System.out.println("Dept: " + bernas.getDept());
+		
+		System.out.println("Subjects of Student");
+		System.out.println("-------------------");
+		List<subject> subjects_ni_abs = bernas.getSubjects();
+		
+		for(subject s : subjects_ni_abs){
+			System.out.println(" -- Subject: " + s.getSubjectName());
+			System.out.println("    Grade is " + s.getGrade());
+		}
+		*/
+		
+		
+		student bernas = new student();
+		bernas.setName("Bernas Cristian");
+		bernas.setDept("CEA");
+
+		subject oop_class = new subject();
+		oop_class.setSubjectName("Object Oriented Programming");
+		oop_class.setGrade(89.00f);
+		bernas.addSubject(oop_class);
+
+		subject intgc_class = new subject();
+		intgc_class.setSubjectName("Integral Calculus");
+		intgc_class.setGrade(88.42f);
+		bernas.addSubject(intgc_class);
+
+		System.out.println("Student is " + penya.getName());
+		System.out.println("Dept: " + bernas.getDept());
+		
+		System.out.println("Subjects of Student");
+		System.out.println("-------------------");
+		List<subject> subjects_ni_bernas = bernas.getSubjects();
+		
+		for(subject s : subjects_ni_bernas){
+			System.out.println(" -- Subject: " + s.getSubjectName());
+			System.out.println("    Grade is " + s.getGrade());
+		}
+	
+	}
+}
